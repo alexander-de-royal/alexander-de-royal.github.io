@@ -1,0 +1,10 @@
+const hamburger = document.querySelector(".hamburger");
+const bar1 = document.querySelector(".bar1");
+const bar2 = document.querySelector(".bar2");
+const mobileNav = document.querySelector(".mobileNav");
+
+hamburger.addEventListener("click", () => {
+  bar1.classList.toggle("animateBar1");
+  bar2.classList.toggle("animateBar2");
+  mobileNav.classList.toggle("openMobileNav");
+});
