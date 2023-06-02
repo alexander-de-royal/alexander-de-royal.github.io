@@ -1,298 +1,317 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--BOX ICON-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Alexander's Portfolio</title>
+</head>
+<body>
+<!--HEADER DESIGN-->
+<header class="header sticky">
+    <a href="#home" class="logo">Alexander's Pörtefeuille'</a>
     
-    <!-- Favicon -->
-    <!-- <link rel="icon" href="favicon.ico"> -->
+    <div class="bx bx-menu" id="menu-icon"></div>
 
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <nav class="navbar">
+        <a href="#portfolio" class="active">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <title >Alexander Royal | Portfolio</title>
-  </head>
-  <!-- Head Ends Here -->
+        <span class="active-nav"></span>
+    </nav>
+</header>
 
-
-  <body>
-    <!-- First Page Starts Here-->
-      <div class="first-page">
-      <h1 class="first-page-heading">Alexander's Pörtefeuille'</h1>
-      <p class="first-page-paragraph">
-        A product designer, who focuses on interactive design & A freelance
-        designer focusing on typography & clean interfaces. Also works in
-        Google. If you see a dot in this page, please clean your screen. :)
-      </p>
-      <hr />
-      </div>
-
-      <div class="arrow">
-        <span><a href="#portfolio"></a></span>
-        <span><a href="#portfolio"></a></span>
-        <span><a href="#portfolio"></a></span>
-      </div>
-      <!-- First Page Ends Here -->
-      
-    
-    <!-- Second Portfolio Page  -->
-      <div class="container-portfolio">
-      
-        <!-- Left Navbar Starts Here -->
-      <header class="navbar">
-        <div class="left-navbar">
-          <h1>
-          <a class="left-navbar-heading" href="index.html">Alexander Royal </a> |
-          <a href="#portfolio">Portfolio</a>
-          </h1>
+<!--HOME SECTION DESIGN-->
+<section class="home show-animate" id="home">
+    <div class="home-content">
+        <h1>Hi, I'm <span>Alexander Royal</span>
+        <div class="text-animate">
+            <h3>Front End Development</h3>
         </div>
-        <!-- Left Navbar Ends Here -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto, at consectetur deleniti dolorem dolorum eaque earum id, ipsa ipsum laudantium modi odit, omnis rem saepe sequi ut voluptate voluptates.</p>
+
+        <div class="btn-box">
+            <a href="#" class="btn">Hire me</a>
+            <a href="#" class="btn">Let's talk</a>
+        </div>
+    </div>
+
+    <div class="home-sci">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+    </div>
+
+    <div class="home-imgHover">
+<!--        <span class="animate" style="&#45;&#45;i:7;"></span>-->
+    </div>
+</section>
+
+<!--PORTFOLIO SECTION DESIGN-->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img class="portfolio-image" src="images/image1.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sequi?</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
         
-        <!-- Right Navbar Starts Here -->
-        <nav class="right-navbar">
-            <a class="right-links" href="#portfolio">Portfolio</a>
-            <a class="right-links" href="#skills">Skills</a>
-            <a class="right-links" href="#about">About</a>
-            <a class="right-links" href="#contact">Contact</a>
-        </nav>
 
-        <!-- Sandwich Menu -->
-        <div class="hamburger">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div class="mobileNav">
-          <a href="#portfolio"><img class="mobile-nav-image" src="./icon/portfolio.png" alt=""></a>
-          <a href="#skills"><img class="mobile-nav-image" src="./icon/logical-thinking.png" alt=""></a>
-          <a href="#about"><img class="mobile-nav-image" src="./icon/about.png" alt=""></a>
-          <a href="#contact"><img class="mobile-nav-image" src="./icon/contact.png" alt=""></a>
-        </div>
-      </header>
-      <!-- Right Navbar Ends Here -->
-
-      <p>
-        Designing, making, and selling goods of timeless design and
-        uncompromising integrity—made thoughtfully, honestly, and with pride—to
-        be enjoyed with similar intention.
-      </p>
-
-      <h2  id="portfolio" class="portfolio-heading">Portfolio</h2>
-      <hr>
-      <section class="gallery">
-
-        <div class="project-grid">
-
-          <div class="project">
-          <img class="image" src="./images/image1.avif" alt="" />
-          <p class="overlay">Skills Required</p>
-          <!-- <a href="">Travellete</a> -->
-        </div>
-
-        <div class="project">
-          <img  class="image" src="./images/image2.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-        </div>
-
-        <div class="project">
-          <img class="image" src="./images/image3.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-        </div>
-
-        <div class="project">
-          <img  class="image" src="./images/image1.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-        </div>
-
-        <div class="project">
-          <img class="image" src="./images/image5.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-        </div>
-
-        <div class="project">
-          <img class="image" src="./images/image6.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-          </div>
-
-        <div class="project">
-          <img  class="image" src="./images/image7.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-        </div>
-
-        <div class="project">
-          <img class="image" src="./images/image8.avif" alt="" />
-          <p class="overlay">Stack Used</p>
-        </div>
-        </div>
-        
-      </section>
     </div>
-   
+</section>
+<!--ABOUT SECTION DESIGN-->
+<section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
 
-    <!-- Third Blog Post Page -->
-
-    <div class="container-blog">
-      <h2 id="skills">A Blog Post</h2>
-
-      <p class="info">12.31.2050 | <span>ALL ABOUT CSS BLOG</span></p>
-
-      <h2>All About Typography</h2>
-
-      <p class="headline">
-        Headlines, like this one, are great ways to quickly capture the reader's
-        attention, to give them a sumary, intro, or other important information
-        in a web page. You can use text-transform: uppercase; to make a whole
-        body of text uppercase using CSS if you really need to grab attention!
-      </p>
-      <p>
-        Okay, now that we're done screaming in the headline in all caps (which
-        you should do sparingly) - it's time to chat more about other components
-        of typography. You'll notice that we chose a nice serif font for our
-        headings, and a nice sans-serif font for our body text. This is
-        intentional! Serif font faces are generally considered pretty
-        inaccessible as a body text style, since at smaller sizes it's much more
-        difficult to visually differentiate the characters from one another. At
-        large font sizes, such as those seen in most headings, serif fonts are
-        considered fine, since the larger style makes it easier to see where
-        serif characters start and where they end.
-      </p>
-      <p>
-        But wait! What if you want more than just normal text on your page?
-        Another common thing you might see in web pages are quotes. To make
-        quotes, we can use the blockquote element and style it accordingly, so
-        it stands out a bit as a non-body text quote.
-      </p>
-
-      <blockquote class="quote">
-        "This is a quote - you probably knew that at a glance since we gave it
-        some nice styling. Pretty nice, huh? A great lesson in User Experience
-        Design, where we take special care to implement our web page in a way
-        that makes it pleasant and intuitive for our users/readers.
-        Differentiating our different typography components visually makes
-        information much more organized and easier to digest for our users."
-        <cite>- A wise person</cite>
-      </blockquote>
-
-      <h3>a new section</h3>
-
-      <p>
-        And just like that, we've got a new section of content separated by a hr
-        element (a 'horizontal rule' or a divider) and a new heading. Isn't
-        putting content together fun?
-      </p>
-
-      <p>
-        Notice as well that when we entered in the H3 content, it was all
-        lowercase, but now it's in a nice Title Case, where the first letter of
-        each word is capitalized. We did that with CSS! Using text-transform:
-        capitalize; we can implement title cased content.
-      </p>
+    <div class="about-img">
+        <img src="icon/about.png" alt="">
+        <span class="circle-spin"></span>
     </div>
 
-    <!-- Fourth CV Page -->
-    <div class="container-cv">
-      <section class="cv">
-        <div class="cv-heading">
-          <h1 id="about" class="cv-h1-heading">
-            I'm a Scientist and Speaker who is interested in the psychology of
-            greed
-          </h1>
-          <div class="two-column-section">
-            <p>My Mission</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores velit voluptatem, blanditiis dolorum nam iusto hic
-              corporis. Voluptatum, ad modi itaque libero doloribus ullam facere
-              assumenda nobis aperiam fugit in! Error voluptatibus ratione,
-              placeat expedita rem excepturi facilis quia consequuntur esse
-              fugit, eum nobis maxime doloribus? Blanditiis veniam inventore
-              vitae?
-            </p>
-            <p>Specialties</p>
-            <ul class="skills">
-              <li>Public Speaking</li>
-              <li>Data Analysis</li>
-              <li>Strategic Planning</li>
-              <li>User Interviews</li>
-              <li>Writing & Editing</li>
-              <li>Analytics & Data</li>
-              <li>Front-End Dev</li>
-              <li>Programming</li>
-            </ul>
-          </div>
+    <div class="about-content">
+        <h3>Frontend Developer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto atque autem, dolorum est fuga fugiat incidunt iste libero molestias necessitatibus perspiciatis, quam qui ratione, reiciendis rem repellendus ullam voluptatibus?
+        </p>
+
+        <div class="btn-box btns">
+            <a href="#" class="btn">Read More</a>
         </div>
-      </section>
     </div>
+</section>
 
-    <!-- Fifth page -->
-    <section class="fifth-page">
-      <div class="fifth">
-        <div class="two-column-section">
-          <p>Tech Blog</p>
-          <div class="post-one">
-            <p class="post-one-heading">This is your brain on helium</p>
-            <p class="post-one-paragraph">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellendus mollitia molestiae quisquam. Consequatur sed eveniet
-              asperiores. Consequatur debitis iusto aliquam.
-            </p>
-            <p class="post-one-date">May 19, 2025</p>
-          </div>
+<!--education section-->
+<section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span></h2>
+    <div class="education-row">
+        <div class="education-column">
+            <h3 class="title">Education</h3>
 
-           <div class="two-column-section">
-          <p>Tech Blog</p>
-          <div class="post-one">
-            <p class="post-one-heading">This is your brain on helium</p>
-            <p class="post-one-paragraph">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellendus mollitia molestiae quisquam. Consequatur sed eveniet
-              asperiores. Consequatur debitis iusto aliquam.
-            </p>
-            <p class="post-one-date">May 19, 2025</p>
-          </div>
-
-           <div class="two-column-section">
-          <p>Tech Blog</p>
-          <div class="post-one">
-            <p class="post-one-heading">This is your brain on helium</p>
-            <p class="post-one-paragraph">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellendus mollitia molestiae quisquam. Consequatur sed eveniet
-              asperiores. Consequatur debitis iusto aliquam.
-            </p>
-            <p class="post-one-date">May 19, 2025</p>
-
-          
-          </div>
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>2017 - 2018</div>
+                        <h3>Master Degree - University</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto, asperiores atque blanditiis consequatur corporis error facilis illo ipsam labore nisi nobis officiis provident repudiandae vel voluptate! Delectus, ipsum?</p>
+                    </div>
+                </div>
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>2017 - 2018</div>
+                        <h3>Master Degree - University</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto, asperiores atque blanditiis consequatur corporis error facilis illo ipsam labore nisi nobis officiis provident repudiandae vel voluptate! Delectus, ipsum?</p>
+                    </div>
+                </div>
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>2017 - 2018</div>
+                        <h3>Master Degree - University</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto, asperiores atque blanditiis consequatur corporis error facilis illo ipsam labore nisi nobis officiis provident repudiandae vel voluptate! Delectus, ipsum?</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
+        <div class="education-column">
+            <h3 class="title">Experience</h3>
 
-    <hr />
-    
-  
-   
-    <footer id="contact">
-      <div class="footer-icon">
-        <img class="icon" src="./icon/github.png" alt="" />
-        <img class="icon" src="./icon/linkedin.png" alt="" />
-        <img class="icon" src="./icon/dribble.png" alt="" />
-        <img class="icon" src="./icon/youtube.png" alt="" />
-        <img class="icon" src="./icon/twitter.png" alt="" />
-      </div>
-    </footer>
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>2017 - 2018</div>
+                        <h3>Web Developer - Company</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto, asperiores atque blanditiis consequatur corporis error facilis illo ipsam labore nisi nobis officiis provident repudiandae vel voluptate! Delectus, ipsum?</p>
+                    </div>
+                </div>
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>2017 - 2018</div>
+                        <h3>Master Degree - University</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto, asperiores atque blanditiis consequatur corporis error facilis illo ipsam labore nisi nobis officiis provident repudiandae vel voluptate! Delectus, ipsum?</p>
+                    </div>
+                </div>
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>2017 - 2018</div>
+                        <h3>Master Degree - University</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad architecto, asperiores atque blanditiis consequatur corporis error facilis illo ipsam labore nisi nobis officiis provident repudiandae vel voluptate! Delectus, ipsum?</p>
+                    </div>
+                </div>
 
-    <p class="footer">Copyright © Alexander Royal 2023</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--skills section design-->
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-row">
+        <div class="skills-column">
+            <h3 class="title">Coding Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>HTML <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>CSS <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>JavaScript <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Java <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-column">
+            <h3 class="title">Professional Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Web Design <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Web Development <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Data Structures & Algorithms <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Java <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-  <script src="index.js" charset="utf-8"></script>
-  </body>
+<!--CONTACT SECTION DESIGN-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Subject" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+</section>
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Codehal | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href=""><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
+
+<script src="app.js"></script>
+</body>
 </html>
