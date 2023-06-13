@@ -48,6 +48,9 @@ a:not(.btn):hover {
 li {
 	line-height: 24px;
 }
+.header-title{
+	font-size: 1.6rem;
+}
 
 @media (max-width: 575px) {
 	body {
